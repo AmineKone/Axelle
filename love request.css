@@ -1,0 +1,95 @@
+* {
+    background-color: pink;
+}
+
+body{
+
+    justify-content: center;
+    align-items: center;
+    background-color:pink;
+    background: url("vid3.mp4");
+}
+
+
+h2 {
+    margin-left: 300px;  
+    margin-right: 250px;
+    font-size: 30px;
+    color: whitesmoke;
+    outline: none;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}   
+
+h2:hover {
+   
+    background-color: purple;
+    cursor: pointer;
+}
+
+.btn-group {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+button{
+    position: absolute;
+    width:300px;
+    height: inherit;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+button:nth-child(1){
+    margin-left: -400px;
+    background-color: deeppink;
+}
+button:nth-child(2){
+    margin-right: -400px;
+    background-color: deeppink;
+}
+button:nth-child(3){
+    margin-top: -540px;
+    margin-right: -950px;
+    font-size: 15px;
+    width: 300px;
+    background-color: deeppink;
+    opacity: 0;
+}
+
+button:nth-child(1):hover{
+    background-color: indigo;
+}
+button:nth-child(2):hover{
+    background-color: indigo;
+}
+button:nth-child(3):hover{
+    background-color: indigo;
+}
+
+img{
+    margin-left: 375px;
+    width: 40%;
+}
+
+video{
+    width: 40%;
+    align-items: center;
+    opacity: 0;
+    margin-left: 375px;
+ }
+
+a {
+    text-decoration: none;
+    color:white;
+    background-color: deeppink;
+}
+
+a:hover{
+    background-color: indigo;
+}
